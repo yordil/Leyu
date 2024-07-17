@@ -1,0 +1,151 @@
+.leyuTransparentLogo1 {
+  width: 182px;
+  height: 182px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.privacyPolicy {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 1;
+}
+.privacyPolicyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7px 0 0;
+}
+.termsOfService {
+  position: relative;
+  line-height: 18px;
+  z-index: 1;
+}
+.termsOfServiceWrapper {
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 20px 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  width: 40px;
+  height: 38.1px;
+  position: relative;
+  z-index: 1;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.logosfacebookIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.socialIconsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 37px 0 0;
+}
+.skillIconsinstagram {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.socialIconsList1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 40px 0 0;
+}
+.skillIconslinkedin {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 80px 0 0;
+  box-sizing: border-box;
+  min-width: 237px;
+  max-width: 100%;
+  gap: 20px;
+}
+.devicongoogle {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.footer,
+.footerContent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.footer,
+.footerContent {
+  box-sizing: border-box;
+}
+.footerContent {
+  width: 1006px;
+  flex-direction: row;
+  padding: 0 15px;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 40px 89.9px;
+  position: relative;
+  gap: 6px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 16px;
+  }
+}

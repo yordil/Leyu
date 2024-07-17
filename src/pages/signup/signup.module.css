@@ -1,0 +1,238 @@
+.pageContainer {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #f8f9fa;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.logo img {
+	width: 100px;
+}
+
+.navList {
+	display: flex;
+	list-style: none;
+}
+
+.navList li {
+	margin-right: 20px;
+}
+
+.navList a {
+	text-decoration: none;
+	color: black;
+}
+
+.authButtons {
+	display: flex;
+}
+
+.login,
+.signup {
+	margin-left: 10px;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.signup {
+	background-color: #007bff;
+	color: white;
+}
+
+.hero {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.leyuHeader {
+	color: #007bff;
+}
+
+.signupForm {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.formContainer {
+	width: 60%;
+}
+
+.formGroup {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formField {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.formField label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.formField input,
+.formField select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.signupBtn {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.imageContainer {
+	width: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imageContainer img {
+	max-width: 100%;
+	height: auto;
+}
+
+.contact {
+	background-color: #f8f9fa;
+	padding: 40px 20px;
+}
+
+.contactContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactInfo {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contactInfo h2,
+.contactInfo p {
+	margin-bottom: 20px;
+}
+
+.contactInfo .email,
+.contactInfo .phone,
+.contactInfo .office {
+	margin-bottom: 20px;
+}
+
+.map {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.map iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.contactImageFormContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contactImg {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.contactImg img {
+	max-width: 100%;
+	height: auto;
+}
+
+.contactForm {
+	width: 100%;
+}
+
+.contactForm h2,
+.contactForm p {
+	margin-bottom: 20px;
+}
+
+.contactForm form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactForm .formGroup {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.contactForm button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.footer {
+	background-color: #343a40;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.footerContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footerContainer p {
+	margin: 0;
+}
+
+.socialMedia {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+}
+
+.socialMedia div {
+	font-size: 24px;
+}
+
+.socialMedia a {
+	color: inherit;
+	text-decoration: none;
+}

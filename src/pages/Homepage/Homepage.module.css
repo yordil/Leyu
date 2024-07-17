@@ -1,0 +1,69 @@
+.screenshot202407131452321,
+.screenshot202407131501181 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.devicontwitter {
+  width: 90px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 55.8px;
+  max-width: 100%;
+}
+.homepageInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 53px 0 59px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 69px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 28px;
+  }
+  .homepageInner {
+    padding-left: 29px;
+    padding-right: 26px;
+    box-sizing: border-box;
+  }
+  .homepage {
+    gap: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .homepage {
+    gap: 17px;
+  }
+}
+
